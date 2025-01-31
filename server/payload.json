@@ -1,76 +1,59 @@
 {
   "data": [
     {
-      "id": 0,
-      "image": "/images/geometry/box.png",
-      "title": "BoxGeometry",
-      "description": "A class for generating rectangular cuboid geometries.",
-      "route": "/geometry/box",
-      "link": "https://threejs.org/docs/#api/en/geometries/BoxGeometry"
+      "title": "Fix UI rendering issue on dashboard",
+      "id": "1",
+      "column": "backlog"
     },
     {
-      "id": 1,
-      "image": "/images/geometry/sphere.png",
-      "title": "SphereGeometry",
-      "description": "A class for generating sphere geometries.",
-      "route": "/geometry/sphere",
-      "link": "https://threejs.org/docs/#api/en/geometries/SphereGeometry"
+      "title": "Ensure compliance with web accessibility standards",
+      "id": "2",
+      "column": "backlog"
     },
     {
-      "id": 2,
-      "image": "/images/geometry/cone.png",
-      "title": "ConeGeometry",
-      "description": "A class for generating cone geometries.",
-      "route": "/geometry/cone",
-      "link": "https://threejs.org/docs/#api/en/geometries/ConeGeometry"
+      "title": "[SPIKE] Explore React framework alternatives",
+      "id": "3",
+      "column": "backlog"
     },
     {
-      "id": 3,
-      "image": "/images/geometry/cylinder.png",
-      "title": "CylinderGeometry",
-      "description": "A class for generating cylinder geometries.",
-      "route": "/geometry/cylinder",
-      "link": "https://threejs.org/docs/#api/en/geometries/CylinderGeometry"
+      "title": "Document REST API integration with frontend",
+      "id": "4",
+      "column": "backlog"
     },
     {
-      "id": 4,
-      "image": "/images/geometry/ring.png",
-      "title": "RingGeometry",
-      "description": "A class for generating a two-dimensional ring geometry.",
-      "route": "/geometry/ring",
-      "link": "https://threejs.org/docs/#api/en/geometries/RingGeometry"
+      "title": "Research GraphQL as an alternative to REST",
+      "id": "5",
+      "column": "todo"
     },
     {
-      "id": 5,
-      "image": "/images/geometry/icosahedron.png",
-      "title": "IcosahedronGeometry",
-      "description": "A class for generating an icosahedron geometry.",
-      "route": "/geometry/icosahedron",
-      "link": "https://threejs.org/docs/#api/en/geometries/IcosahedronGeometry"
+      "title": "Write postmortem for recent website downtime",
+      "id": "6",
+      "column": "todo"
     },
     {
-      "id": 6,
-      "image": "/images/geometry/dodecahedron.png",
-      "title": "DodecahedronGeometry",
-      "description": "A class for generating a dodecahedron geometries.",
-      "route": "/geometry/dodecahedron",
-      "link": "https://threejs.org/docs/#api/en/geometries/DodecahedronGeometry"
+      "title": "Sync with product team on frontend development roadmap",
+      "id": "7",
+      "column": "todo"
     },
     {
-      "id": 7,
-      "image": "/images/geometry/torus.png",
-      "title": "TorusGeometry",
-      "description": "A class for generating torus geometries.",
-      "route": "/geometry/torus",
-      "link": "https://threejs.org/docs/#api/en/geometries/TorusGeometry"
+      "title": "Refactor frontend to use React Hooks",
+      "id": "8",
+      "column": "doing"
     },
     {
-      "id": 8,
-      "image": "/images/geometry/torusKnot.png",
-      "title": "TorusKnotGeometry",
-      "description": "A class for generating torus knot geometries",
-      "route": "/geometry/torusKnot",
-      "link": "https://threejs.org/docs/#api/en/geometries/TorusKnotGeometry"
+      "title": "Implement logging for frontend errors in production",
+      "id": "9",
+      "column": "doing"
+    },
+    {
+      "title": "Set up monitoring for website performance metrics",
+      "id": "10",
+      "column": "done"
+    },
+    {
+      "title": "Optimize image loading for better website speed",
+      "id": "11",
+      "column": "backlog"
     }
   ]
 }
