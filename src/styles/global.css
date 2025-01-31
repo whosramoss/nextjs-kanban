@@ -27,13 +27,6 @@
   body {
     @apply overflow-x-hidden;
   }
-
-  .card-size {
-    @apply h-[308px] rounded-xl sm:h-[496px];
-  }
-  .card-mobile-text {
-    @apply text-2xl text-black md:hidden
-  }
 }
 
 ::-webkit-scrollbar {
