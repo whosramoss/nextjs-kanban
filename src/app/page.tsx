@@ -1,16 +1,40 @@
-"use client"
+"use client";
 
 import React from "react";
-import { useLanguageRedirect } from "@hooks/useLanguageRedirect";
-
-/// For static builds, page redirection will not work through middleware.
-/// In such cases, it's necessary to create a dedicated page for 
-/// redirection and implement the redirection logic through a hook. 
-/// If your build is not static, this page is not necessary.
-
+import { useApiFetchFromQuery } from "@hooks/useApiFetchFromQuery";
+import { ApiKanbanResponse } from "@models/kanban-model";
+import Body from "@app/_components/body";
+import { Kanban } from "@ui/kanban";
 
 export default function Page() {
-  useLanguageRedirect()
-  return (<React.Fragment />)
-}
+  const { data, isLoading, error } = useApiFetchFromQuery<ApiKanbanResponse>({
+    url: '/api/kanban',
+    key: "kanban",
+  });
 
+  if (error) {
+    return (
+      <Kanban.Root>
+        <div className="sm:px-12 py-4 text-neutral-900 ">
+          Error
+        </div>
+      </Kanban.Root>
+
+    );
+  }
+
+  if (isLoading) {
+    return (
+      <Kanban.Root>
+        <div className="sm:px-12 py-4 text-neutral-900 ">
+          Loading
+        </div>
+      </Kanban.Root>
+    );
+  }
+  return (
+    <Kanban.Root>
+      <Body data={data?.data || []} />
+    </Kanban.Root>
+  );
+}
