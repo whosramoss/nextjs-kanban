@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  A flexible and interactive board for organizing workflows
+  Flexible and interactive board for organizing workflows
 </p>
 
 <div align="center">
